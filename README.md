@@ -398,9 +398,19 @@ The CI pipeline is triggered automatically on every push to the `main` branch an
 
 1. **Checkout code**: Retrieves the latest code from the repository.
 2. **Set up Go**: Configures the Go environment.
-3. **Install dependencies**: Installs the required Go modules.
-4. **Build**: Compiles the project.
-5. **Run tests**: Executes the unit tests.
-6. **Run BDD tests**: Executes the BDD tests using Gherkin scenarios.
+3. **Initialize Go modules**: Initializes Go modules using `go mod init`.
+4. **Install dependencies**: Installs the required Go modules using `go mod download`.
+5. **Build**: Compiles the project.
+6. **Run tests**: Executes the unit tests.
+7. **Run BDD tests**: Executes the BDD tests using Gherkin scenarios.
 
 To manually trigger the CI pipeline, you can push changes to the `main` branch or create a pull request targeting the `main` branch.
+
+### Initializing Go Modules
+
+Before running the CI pipeline, ensure that Go modules are initialized in your local environment. You can do this by running the following commands:
+
+```sh
+go mod init
+go mod download
+```
