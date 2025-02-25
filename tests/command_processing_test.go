@@ -3,8 +3,8 @@ package tests
 import (
 	"testing"
 	"time"
-	"flexicli/core"
-	"flexicli/events"
+	"github.com/robmillersoftware/flux-cli/core"
+	"github.com/robmillersoftware/flux-cli/events"
 	"github.com/cucumber/godog"
 )
 

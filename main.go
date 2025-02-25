@@ -7,11 +7,11 @@ import (
 	"encoding/json"
 	"io/ioutil"
 	"path/filepath"
-	"flexicli/core"
-	"flexicli/plugins"
-	"flexicli/config"
-	"flexicli/errors"
-	"flexicli/events"
+	"github.com/robmillersoftware/flux-cli/core"
+	"github.com/robmillersoftware/flux-cli/plugins"
+	"github.com/robmillersoftware/flux-cli/config"
+	"github.com/robmillersoftware/flux-cli/errors"
+	"github.com/robmillersoftware/flux-cli/events"
 )
 
 func main() {

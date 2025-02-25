@@ -3,6 +3,7 @@ package tests
 import (
 	"testing"
 	"time"
+	"os"
 
 	"github.com/cucumber/godog"
 	"github.com/robmillersoftware/flux-cli/core"

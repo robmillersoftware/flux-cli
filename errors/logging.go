@@ -3,8 +3,8 @@ package errors
 import (
 	"fmt"
 	"time"
-	"flexicli/core"
-	"flexicli/events"
+	"github.com/robmillersoftware/flux-cli/core"
+	"github.com/robmillersoftware/flux-cli/events"
 )
 
 // LogError logs an error and emits an ErrorOccurred event

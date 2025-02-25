@@ -7,6 +7,7 @@ import (
 	"github.com/cucumber/godog"
 	"github.com/cucumber/godog/colors"
 	"github.com/stretchr/testify/assert"
+	"github.com/robmillersoftware/flux-cli/core"
 )
 
 type EnvironmentManagementTest struct {
